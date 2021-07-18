@@ -25,7 +25,7 @@ class _RecipeState extends State<Recipe> {
         title: Text(widget.recipedata.name, style: GoogleFonts.pacifico(),),
       ),
       body: SingleChildScrollView(
-        physics: NeverScrollableScrollPhysics(),
+
 
         child: Column(
           children: [
@@ -50,7 +50,7 @@ class _RecipeState extends State<Recipe> {
 
             ),
             Container(
-              height: 50,
+              //height: 50,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -75,7 +75,7 @@ class _RecipeState extends State<Recipe> {
 
 
             Container(
-              height: 120,
+              //height: 120,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -98,7 +98,7 @@ class _RecipeState extends State<Recipe> {
               style: GoogleFonts.dancingScript(fontSize: 30,fontWeight: FontWeight.bold),
             ),
             Container(
-              height: 150,
+             // height: 150,
               child: Column(
                 children: [
                   Padding(

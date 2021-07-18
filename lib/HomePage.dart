@@ -37,19 +37,20 @@ void dispose(){
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("Spices Dairy", style:GoogleFonts.courgette(fontSize: 28,letterSpacing: 2),)),
+        title: Center(child: Text("Spices Dairy", style:GoogleFonts.courgette(fontSize: 28,letterSpacing: 2,color: Colors.orangeAccent),)),
 
 
       ),
       body: SingleChildScrollView(
         child: Column(
           children: [
+            20.heightBox,
             Padding(
               padding: const EdgeInsets.all(8.0),
               child:RotationTransition(alignment: Alignment.center,
                   turns: _controller,
-                  child: VxBox(child: Image.asset("assets/images/final.jpg").objectCover(),
-                  ).height(context.screenHeight*0.30).width(context.screenWidth*0.85).make(),
+                  child: VxBox(child: Image.asset("assets/images/final-removebg.png").objectCover(),
+                  ).height(context.screenHeight*0.30).width(context.screenWidth*0.75).make(),
 
               ),),
             SizedBox(height: 25,),
@@ -140,7 +141,7 @@ void dispose(){
                 Padding(
                   padding: EdgeInsets.only(left: 12.0, right: 12.0),
                   child:Container(
-                    height: 500,
+                    //height: 500,
                    // width: 400,
 
                     child: StreamBuilder(
