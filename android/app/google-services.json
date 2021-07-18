@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300879960162",
+    "project_id": "spice-dairy",
+    "storage_bucket": "spice-dairy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300879960162:android:35f3f69897294e2447193b",
+        "android_client_info": {
+          "package_name": "com.example.spice_diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300879960162-5p1nntg5d7e0o6as7ps00803q6n91l5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh5R7qVL6T7pMWns_rkVm1Ram4PY_CHHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300879960162-5p1nntg5d7e0o6as7ps00803q6n91l5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
